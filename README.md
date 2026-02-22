@@ -36,6 +36,24 @@ Inter-task communication is implemented using FreeRTOS queues.
 
 ---
 
+## Task Overview
+
+The system is divided into four RTOS tasks:
+
+1. SensorTask  
+   Reads simulated sensor values periodically.
+
+2. ProcessingTask  
+   Filters and processes sensor data.
+
+3. CommunicationTask  
+   Sends processed data over UART.
+
+4. MonitorTask  
+   Monitors system health and memory usage.
+
+---
+   
 ## 🧠 Technologies Used
 
 - STM32 (ARM Cortex-M)
