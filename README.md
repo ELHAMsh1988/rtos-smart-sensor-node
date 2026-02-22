@@ -1,0 +1,51 @@
+# RTOS Smart Sensor Node (Embedded C++ Project)
+
+## 📌 Project Overview
+This project demonstrates a multitasking embedded system using FreeRTOS and C++.
+The system reads simulated sensor data, processes it, and transmits it via UART.
+
+The goal of this project is to demonstrate:
+
+- Embedded C++ design
+- RTOS task management
+- Inter-task communication (Queues)
+- Hardware abstraction
+- Modular firmware architecture
+
+---
+
+## ⚙️ System Architecture
+
+The firmware is structured into independent RTOS tasks:
+
+- Sensor Task → Reads ADC values
+- Processing Task → Applies filtering (Moving Average)
+- Communication Task → Sends data via UART
+- Monitor Task → Checks system health
+
+Inter-task communication is implemented using FreeRTOS queues.
+
+---
+
+## 🧠 Technologies Used
+
+- STM32 (ARM Cortex-M)
+- FreeRTOS
+- Embedded C++
+- UART Communication
+- Multitasking architecture
+- Modular driver abstraction
+
+---
+
+## 🧪 Functional Flow
+
+1. Sensor reads data periodically
+2. Data is pushed into a queue
+3. Processing task filters the signal
+4. Communication task sends processed data over UART
+5. Monitor task checks task status
+
+---
+
+## 📷 System Output Example
