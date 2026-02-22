@@ -49,3 +49,6 @@ Inter-task communication is implemented using FreeRTOS queues.
 ---
 
 ## 📷 System Output Example
+
+![IMG_9507](https://github.com/user-attachments/assets/b415f728-1585-45bf-ab12-213ca1b4cd1d)
+
