@@ -13,6 +13,15 @@ The goal of this project is to demonstrate:
 - Modular firmware architecture
 
 ---
+## Target Platform
+
+This project is designed for:
+- STM32 microcontroller (ARM Cortex-M)
+- FreeRTOS
+- Developed and tested using PlatformIO / STM32CubeIDE
+- Serial output via UART (115200 baud)
+
+---
 
 ## ⚙️ System Architecture
 
